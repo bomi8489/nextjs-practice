@@ -1,1 +1,1 @@
-# <a href="https://bomi8489.github.io/next-movieApp">NextJs Practice</a>
+# NextJs Practice

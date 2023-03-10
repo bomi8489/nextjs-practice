@@ -5,9 +5,16 @@ export default function Detail({ params }) {
   const router = useRouter();
   const [title, id] = params || [];
   return (
-    <div>
+    <div className="container">
       <Seo title={title} />
       <h4>{title}</h4>
+      <style jsx>{`
+      .container {
+        padding: 20px;
+        background-color: white;
+        height: 100vh;
+      }
+      `}</style>
     </div>
   );
 }
